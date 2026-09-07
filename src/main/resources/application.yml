@@ -8,3 +8,6 @@ spring:
         options:
           model: qwen3:4b
           temperature: 0.2
+logging:
+  level:
+    org.springframework.ai: DEBUG
